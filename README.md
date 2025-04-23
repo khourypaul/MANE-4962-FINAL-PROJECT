@@ -2,9 +2,9 @@
 
 
 Must include:
-o Project Jtle and your name
-o Brief descripJon and objecJve
-o Dataset(s) used
-o Model/method overview
-o InstrucJons to run the code
-o Summary of results and key findings
+- Project title and your name
+- Brief description and objective
+- Dataset(s) used
+- Model/method overview
+- Instructions to run the code
+- Summary of results and key findings
