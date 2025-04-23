@@ -1,0 +1,15 @@
+For those interested in reproducing these results:
+
+Manually place all 72 text files from the raw data source into a single folder. 
+
+Save the txttocsvmaster.py python file found in MANE-4962-FINAL-PROJECT/notebooks into the aforementioned folder and run it. 
+This will generate a master csv file combining the data from all 72 text files. 
+
+Run final_data_processer.py, also found in MANE-4962-FINAL-PROJECT/notebooks. 
+This will apply some filters to the data, generate time-independent data based on the time-dependent raw data, and calculate RMS, MAV, and SSC for each signal.
+Make sure to modify the second-to-last non-whitespace line where the input file name is hardcoded as needed: 
+  | input_csv_path = "master.csv" # <--change this
+
+Run proj_prog_4_initial_classification.ipynb for classification using SVM.
+
+Run final_classification.ipynb for classification using a fully-connected neural net.
