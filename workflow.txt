@@ -12,4 +12,4 @@ Make sure to modify the second-to-last non-whitespace line where the input file 
 
 Run proj_prog_4_initial_classification.ipynb for classification using SVM.
 
-Run final_classification.ipynb for classification using a fully-connected neural net.
+Run final_classification.ipynb for classification using a fully-connected neural net (achieves slightly better results).
